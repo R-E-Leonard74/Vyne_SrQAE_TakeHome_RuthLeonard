@@ -41,7 +41,12 @@ Problems encountered with AI Generated tests:
     ApiPosts.spec.ts:
     - Attempt get post with invalid id
     - Create a new postt with a new user id
-    
+    - Patch an existing test 
+    - I added console output commands to each test to be able to see the response.
+
+    Evaluation: 
+    The framework was pretty easy to use and run tests.  Playwright makes it relatively straight forward to create a robust framework  Using AI to help create the tests and some of the infrastructure makes it infinitely less stressful to build a new framework. It also provides example test from which to build further from. 
+
 
 
 ```
