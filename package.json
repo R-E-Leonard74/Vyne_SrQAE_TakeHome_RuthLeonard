@@ -1,0 +1,23 @@
+{
+  "name": "vyne_srqae_takehome_ruthleonard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-E-Leonard74/Vyne_SrQAE_TakeHome_RuthLeonard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/R-E-Leonard74/Vyne_SrQAE_TakeHome_RuthLeonard/issues"
+  },
+  "homepage": "https://github.com/R-E-Leonard74/Vyne_SrQAE_TakeHome_RuthLeonard#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
+  }
+}
