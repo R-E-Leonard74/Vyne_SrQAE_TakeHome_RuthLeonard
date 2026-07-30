@@ -32,7 +32,7 @@ Problems encountered with AI Generated tests:
     - WebApp.spec.ts test run failed at import line "import { LoginPage } from '../pages/LoginPage';" for Error: Cannot find module '../pages/LoginPage'. The other page obects CartPage and InventoryPage also failed for the same.  This was due to the wrong path after from.  I changed it to: use '../src/PageObjects/' instead.
     - ApiPosts.spec.ts test run failed at "import { JSONPlaceholderClient } from '../clients/JSONPlaceholderClient'". The AI generated code does not have the correct path, it was missing /src.
 
-    Added Tests: 
+Added Tests: 
     WebApp.spec.ts: 
     - Login with invalid password for standard user
     - Log out user
@@ -44,7 +44,9 @@ Problems encountered with AI Generated tests:
     - Patch an existing test 
     - I added console output commands to each test to be able to see the response.
 
-    Evaluation: 
+Prompts are saved in the PROMPTS.md
+
+Evaluation: 
     The framework was pretty easy to use and run tests.  Playwright makes it relatively straight forward to create a robust framework  Using AI to help create the tests and some of the infrastructure makes it infinitely less stressful to build a new framework. It also provides example test from which to build further from. 
 
 
